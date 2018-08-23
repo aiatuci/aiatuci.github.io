@@ -1,6 +1,6 @@
 # aiatuci.github.io
 
-use command git pull https://github.com/aiatuci/aiatuci.github.io.git to get a local version on your machine.
+use command `git pull https://github.com/aiatuci/aiatuci.github.io.git` to get a local version on your machine.
 
 Create the branch on your local machine and switch in this branch:
 
