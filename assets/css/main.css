@@ -3760,10 +3760,10 @@ input, select, textarea {
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
-				font-size: 3rem;
+				font-size: 4rem;
 				line-height: 1.1;
 				margin: 0 0 3rem 0;
-				text-align: left;
+				text-align: center;
 			}
 
 			#main > .post.featured {
@@ -4653,7 +4653,7 @@ input, select, textarea {
 
 	}
 
-/* Sponsor */
+/* Sponsors */
 .sponsor-column {
 	float: left;
 	width: 33.33%;
@@ -4668,4 +4668,20 @@ input, select, textarea {
 	vertical-align: middle;
 	margin-top: .5rem;
 
+}
+
+/* About Us */
+.about-column {
+	float: left;
+	width: 50%;
+	padding: .5rem;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.about-row::after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 100%;
 }
