@@ -3760,7 +3760,7 @@ input, select, textarea {
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
-				font-size: 4rem;
+				font-size: 3.25rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 				text-align: center;
@@ -4681,6 +4681,16 @@ input, select, textarea {
 	clear: both;
 	display: block;
 	height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+
+	.about-column {
+		float: left;
+		width: 200%;
+		padding: .5rem;
+	}
+
 }
 
 /* Projects */
