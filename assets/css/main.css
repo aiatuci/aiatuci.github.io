@@ -4683,14 +4683,12 @@ input, select, textarea {
 	height: 100%;
 }
 
-@media screen and (max-width: 767px) {
-
+@media screen and (max-width: 736px) {
 	.about-column {
 		float: left;
-		width: 200%;
+		width: 100%;
 		padding: .5rem;
 	}
-
 }
 
 /* Projects */
