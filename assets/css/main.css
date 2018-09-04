@@ -4722,3 +4722,23 @@ input, select, textarea {
   left: -0.225em;
   top: -1em;
 }
+
+.accordion {
+	font-size: 1.5rem;
+	margin: .5rem;
+}
+
+@media screen and (max-width: 736px) {
+	.accordion {
+		height: auto;
+		white-space: normal;
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+		padding: .5rem .5rem .5rem .5rem;
+	}
+	.panel {
+		display: none;
+		white-space: normal;
+		height: auto;
+	}
+}
