@@ -4736,9 +4736,14 @@ input, select, textarea {
 		line-height: 1.5rem;
 		padding: .5rem .5rem .5rem .5rem;
 	}
+
 	.panel {
 		display: none;
 		white-space: normal;
 		height: auto;
+	}
+
+	.projects ol {
+		margin-left: 10%;
 	}
 }
