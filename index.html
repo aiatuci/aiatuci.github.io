@@ -44,9 +44,9 @@
 					<nav id="nav">
 						<ul class="links">
 							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">Our Projects</a></li>
-							<li><a href="#">Contacts</a></li>
+							<li><a href="#about">About Us</a></li>
+							<li><a href="#projects">Our Projects</a></li>
+							<li><a href="#footer">Contacts</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -77,7 +77,7 @@
 						</article>
 
 						<!-- About Us -->
-						<article class="post featured">
+						<article class="post featured" id="about">
 							<header class="major">
 								<h2>About Us</h2>
 								<div class="about-row">
@@ -95,7 +95,7 @@
 						</article>
 
 						<!-- Projects -->
-						<article class="post featured">
+						<article class="post featured" id="projects">
 							<header class="major">
 								<h2>Our Projects</h2>
 								<div class="projects">
@@ -113,13 +113,13 @@
 										</li>
 									</ol>
 								</div>
-								<a href="#">More Projects</a>
+								<p>Click <b><a href="#">here</a></b> to see more</p>
 
 							</header>
 						</article>
 
 						<!-- Posts -->
-							<section class="posts">
+							<!--<section class="posts">
 								<article>
 									<header>
 										<span class="date">April 24, 2017</span>
@@ -192,12 +192,12 @@
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
-							</section>
+							</section>-->
 
 						<!-- Footer -->
-							<footer>
+							<!--<footer>
 								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="#" class="previous">Prev</a>
 									<a href="#" class="page active">1</a>
 									<a href="#" class="page">2</a>
 									<a href="#" class="page">3</a>
@@ -207,45 +207,46 @@
 									<a href="#" class="page">10</a>
 									<a href="#" class="next">Next</a>
 								</div>
-							</footer>
-
+							</footer>-->
+							<article class="post featured">
+								<header class="major">
+								<h2>Our Amazing Team</h2>
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+									<!-- Break -->
+									<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+									<!-- Break -->
+									<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+								</div>
+							</header>
+						</article>
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
+						<section class="split contact">
+							<section>
 							<form method="post" action="#">
 								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
 									<div class="field">
 										<label for="email">Email</label>
 										<input type="text" name="email" id="email" />
 									</div>
-									<div class="field">
+									<!--<div class="field">
 										<label for="message">Message</label>
 										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
+									</div>-->
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="Subscribe" /></li>
 								</ul>
 							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Meeting Room</h3>
-								<p></p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
@@ -257,10 +258,24 @@
 								</ul>
 							</section>
 						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Meeting Room</h3>
+								<p>CS 171</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">aiatuci@gmail.com</a></p>
+							</section>
+						</section>
 					</footer>
 
 				<!-- Copyright -->
-					<div id="copyright">
+					<div id="copyright" style="color:white">
 						<ul><li>&copy; Artificial Intelligence @ UCI</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
 					</div>
 
