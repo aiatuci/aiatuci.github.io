@@ -4669,6 +4669,15 @@ input, select, textarea {
 
 }
 
+@media screen and (max-width: 736px) {
+	.sponsor-column {
+		float: center;
+		width: 75%;
+		padding: .75rem;
+		margin-left: 2.75rem;
+	}
+}
+
 /* About Us */
 .about-column {
 	float: left;
