@@ -4756,7 +4756,10 @@ input, select, textarea {
 @media only screen and (max-width: 600px) {
 	#title_font{
 		font-family: 'Expletus Sans';
-		font-size: 550% !important;
+		font-size: 300% !important;
+	}
+	.sub_box{
+		padding: 0% 0% 50% 0%;
 	}
 }
 
@@ -4764,7 +4767,10 @@ input, select, textarea {
 @media only screen and (min-width: 600px) {
 	#title_font{
 		font-family: 'Expletus Sans';
-		font-size: 550% !important;
+		font-size: 300% !important;
+	}
+	.sub_box{
+		padding: 0% 0% 50% 0%;
 	}
 }
 
@@ -4774,6 +4780,9 @@ input, select, textarea {
 		font-family: 'Expletus Sans';
 		font-size: 400% !important;
 	}
+	.sub_box{
+		padding: 0% 0% 50% 0%;
+	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -4782,6 +4791,10 @@ input, select, textarea {
 		font-family: 'Expletus Sans';
 		font-size: 400% !important;
 	}
+	.sub_box{
+		padding: 0% 5% 5% 50%;
+		text-align:left;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -4789,5 +4802,9 @@ input, select, textarea {
 	#title_font{
 		font-family: 'Expletus Sans';
 		font-size: 550% !important;
+	}
+	.sub_box{
+		padding: 0% 5% 5% 50%;
+		text-align:left;
 	}
 }
