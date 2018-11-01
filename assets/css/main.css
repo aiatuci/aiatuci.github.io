@@ -4655,7 +4655,7 @@ input, select, textarea {
 
 /* Sponsors */
 .sponsor-column {
-	float: left;
+	float: right;
 	width: 33.33%;
 	padding: .5rem;
 }
